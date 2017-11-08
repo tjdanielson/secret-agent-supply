@@ -9,3 +9,7 @@ html{
   background-color: black;
   color: white;
 }
+
+.feature-bar{
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+}
