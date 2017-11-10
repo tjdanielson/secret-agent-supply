@@ -1,15 +1,122 @@
 html{
-  font-family: sans-serif;
+  font-family: helvetica;
+  background-color: black;
 }
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
 
 .logo-bar{
   display: flex;
   align-items: center;
-  padding: 20px 300px;
   background-color: black;
   color: white;
+  padding: .66rem 0;
+}
+
+.logo-bar img{
+  padding: 0 0.5rem;
+  height: 1.5rem;
+}
+
+.logo-bar p{
+  font-family: helvetica;
+  font-size: 1 rem;
 }
 
 .feature-bar{
+  height: 25rem;
   background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.feature-box{
+  width: 20rem;
+  background-color: black;
+  color: white;
+  display: block;
+  padding: 2rem 3rem;
+  margin-left: 1rem;
+  position: relative;
+  top: 9rem;
+}
+
+.feature-box p{
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom:. 25rem;
+}
+
+.feature-box h1{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: .25rem;
+}
+
+.nav nav{
+  background-color: firebrick;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: .75rem 0;
+}
+
+a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content{
+  background-color: white;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  flex-direction: column;
+}
+
+.products{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.spotlight-box{
+  display: block;
+  align-content: center;
+  border: 4px solid black;
+  width: 30%;
+  text-align: center;
+}
+
+.description{
+  display: block;
+  color: white;
+  background-color: black;
+}
+
+.spotlight-box img{
+  diplay: flex;
+  height: 9rem;
+  padding: 2rem 0;
+  max-width: 8rem;
+}
+
+.details{
+  display: block;
+  margin: 1rem;
+}
+
+.detail-boxes{
+  display: flex;
+  flex-direction: column;
 }
