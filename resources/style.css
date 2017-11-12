@@ -66,6 +66,10 @@ html{
   padding: .75rem 0;
 }
 
+.mobile-nav{
+  display: none;
+}
+
 a{
   color: white;
   text-decoration: none;
@@ -113,7 +117,7 @@ a{
 
 .details{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
   margin: 1rem;
 }
@@ -143,4 +147,30 @@ a{
   color: white;
   max-width: 960px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px){
+  #glasses{
+    display: none;
+  }
+
+  .spotlight-box{
+    width: 47%;
+  }
+
+  .mobile-nav{
+    display: block;
+    background-color: firebrick;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: .75rem 0;
+  }
+
+  .nav nav{
+    display: none;
+  }
+
+
+
 }
