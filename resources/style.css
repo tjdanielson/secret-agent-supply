@@ -177,17 +177,13 @@ a{
     height: 15rem;
   }
 
-  .container{
-    align-items: center;
-  }
-
   .feature-box{
-    width: 100%;
+    width: 90%;
     background-color: black;
     color: white;
     display: block;
-    position: relative;
     top: 9rem;
+    margin-left: 0;
   }
 
   .feature-box p{
@@ -211,13 +207,16 @@ a{
     display: block;
     justify-content: center;
     align-items: center;
+    margin-left: 2rem;
+    width: 90%;
   }
 
   .detail-box{
     display: block;
-    width: 90%;
+    width: 100%;
     text-align: center;
     justify-content: center;
+    padding-bottom: .1rem;
   }
 
   .title{
