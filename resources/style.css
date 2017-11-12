@@ -170,7 +170,67 @@ a{
   .nav nav{
     display: none;
   }
+}
 
+@media only screen and (max-width: 470px){
+  .feature-bar{
+    height: 15rem;
+  }
 
+  .container{
+    align-items: center;
+  }
 
+  .feature-box{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: block;
+    position: relative;
+    top: 9rem;
+  }
+
+  .feature-box p{
+    font-size: .77rem;
+  }
+
+  .feature-box h1{
+    font-size: 1rem;
+  }
+
+  #watch{
+    display: none;
+  }
+
+  .spotlight-box{
+    width: 90%;
+    justify-content: center;
+  }
+
+  .details{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail-box{
+    display: block;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .title{
+    background-color: black;
+    display: block;
+    color: white;
+  }
+
+  .text{
+    display: block;
+  }
+
+  .footer{
+    text-align: center;
+  }
 }
