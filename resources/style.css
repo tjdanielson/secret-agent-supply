@@ -6,7 +6,6 @@ html{
 .container{
   max-width: 960px;
   margin: 0 auto;
-  overflow: visible;
 }
 
 
@@ -69,7 +68,6 @@ html{
 
 a{
   color: white;
-  font-weight: bold;
   text-decoration: none;
 }
 
@@ -101,7 +99,9 @@ a{
 .description{
   display: block;
   color: white;
+  background-size: auto;
   background-color: black;
+  padding: .5rem;
 }
 
 .spotlight-box img{
@@ -112,11 +112,35 @@ a{
 }
 
 .details{
-  display: block;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
   margin: 1rem;
 }
 
-.detail-boxes{
-  display: flex;
+.detail-box{
+  display: block;
   flex-direction: column;
+  width: 35%;
+}
+
+.title{
+  background-color: black;
+  display: block;
+  margin-top: 1rem;
+  color: white;
+  padding: 1rem;
+}
+
+.text{
+  display: block;
+  margin-bottom: 4rem;
+  margin-top: .5rem;
+}
+
+.footer{
+  height: 5rem;
+  color: white;
+  max-width: 960px;
+  margin: 0 auto;
 }
